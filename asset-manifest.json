@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.48162c26.chunk.css",
-  "main.js": "/static/js/main.c1768d41.chunk.js",
-  "main.js.map": "/static/js/main.c1768d41.chunk.js.map",
-  "static/js/1.5d91054e.chunk.js": "/static/js/1.5d91054e.chunk.js",
-  "static/js/1.5d91054e.chunk.js.map": "/static/js/1.5d91054e.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.48162c26.chunk.css.map": "/static/css/main.48162c26.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.d1a2620dd59b4b2caec9182af9e82ba9.js": "/precache-manifest.d1a2620dd59b4b2caec9182af9e82ba9.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/qixinchen11.github.io/static/css/main.48162c26.chunk.css",
+  "main.js": "/qixinchen11.github.io/static/js/main.94e96751.chunk.js",
+  "main.js.map": "/qixinchen11.github.io/static/js/main.94e96751.chunk.js.map",
+  "static/js/1.5d91054e.chunk.js": "/qixinchen11.github.io/static/js/1.5d91054e.chunk.js",
+  "static/js/1.5d91054e.chunk.js.map": "/qixinchen11.github.io/static/js/1.5d91054e.chunk.js.map",
+  "runtime~main.js": "/qixinchen11.github.io/static/js/runtime~main.f7bb5dcf.js",
+  "runtime~main.js.map": "/qixinchen11.github.io/static/js/runtime~main.f7bb5dcf.js.map",
+  "static/css/main.48162c26.chunk.css.map": "/qixinchen11.github.io/static/css/main.48162c26.chunk.css.map",
+  "index.html": "/qixinchen11.github.io/index.html",
+  "precache-manifest.ebc9c26ab95e8a64743b7ad96a67fe42.js": "/qixinchen11.github.io/precache-manifest.ebc9c26ab95e8a64743b7ad96a67fe42.js",
+  "service-worker.js": "/qixinchen11.github.io/service-worker.js"
 }
