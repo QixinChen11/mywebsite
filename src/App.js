@@ -16,14 +16,13 @@ class App extends Component {
             <a className="a" href="https://www.linkedin.com/in/qixin-chen-01a191156/" rel="noopener noreferrer" target="_blank">
               <Icon circular inverted name='linkedin' />
             </a>
-            <a className="a" href="mailto:qixin.ch3n@gmail.com" rel="noopener noreferrer" target="_blank">
-              <Icon circular inverted name='mail outline' />
-            </a>
           </div>
           
-          <div className="About_me">
+          <div>
             <a className="a" href='#About_me'>
+              <div className="About_me">
                 About Me
+              </div>
             </a>
           </div>
           <div>
@@ -50,16 +49,16 @@ class App extends Component {
         </div>
         <div className="content">
           <div id='About_me'>
-          
+            <div className="content-title">About me</div>
           </div>
           <div id='Experiences'>
-          
+            <div className="content-title">Experiences</div>
           </div>
           <div id='Skills'>
-          
+            <div className="content-title">Skills</div>
           </div>
           <div id='Projects'>
-          
+            <div className="content-title">Projects</div>
           </div>
         </div>
       </div>

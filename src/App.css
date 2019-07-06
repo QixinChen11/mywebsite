@@ -63,3 +63,12 @@ html {
 .About_me{
   margin-top:100px;
 }
+
+.content-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  font-size: 40px;
+  font-family: Gabriola;
+}
