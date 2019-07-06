@@ -21,7 +21,7 @@ class App extends Component {
           <div>
             <a className="a" href='#About_me'>
               <div className="About_me">
-                About Me h
+                About Me
               </div>
             </a>
           </div>
