@@ -51,8 +51,14 @@ class App extends Component {
           <div id='Profile'>
             <div className="content-title">Profile</div>
             <div className="content-about">
-              <div className="about-title">About Me</div>
-              <div className="details-title">Details</div>
+              <div className="about">
+                <div className="about-title">About Me</div>
+                <div className="about-content">About Me</div>
+              </div>
+              <div className="details">
+                <div className="details-title">Details</div>
+                <div className="details-content">About Me</div>
+              </div>
             </div>
 
           </div>
