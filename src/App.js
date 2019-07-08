@@ -11,17 +11,17 @@ class App extends Component {
           
           <div className="links">
             <a className="a" href="https://github.com/QixinChen11" rel="noopener noreferrer" target="_blank">
-              <Icon circular inverted name='github' />
+              <Icon size="large" circular inverted name='github' />
             </a>
             <a className="a" href="https://www.linkedin.com/in/qixin-chen-01a191156/" rel="noopener noreferrer" target="_blank">
-              <Icon circular inverted name='linkedin' />
+              <Icon size="large" circular inverted name='linkedin' />
             </a>
           </div>
           
           <div>
-            <a className="a" href='#About_me'>
-              <div className="About_me">
-                About Me 
+            <a className="a" href='#Profile'>
+              <div className="Profile">
+                Profile
               </div>
             </a>
           </div>
@@ -48,17 +48,25 @@ class App extends Component {
           </div>
         </div>
         <div className="content">
-          <div id='About_me'>
-            <div className="content-title">About me</div>
+          <div id='Profile'>
+            <div className="content-title">Profile</div>
+            <div className="content-about">
+              <div className="about-title">About Me</div>
+              <div className="details-title">Details</div>
+            </div>
+
           </div>
           <div id='Experiences'>
             <div className="content-title">Experiences</div>
+            <div className="content-content"></div>
           </div>
           <div id='Skills'>
             <div className="content-title">Skills</div>
+            <div className="content-content"></div>
           </div>
           <div id='Projects'>
             <div className="content-title">Projects</div>
+            <div className="content-content"></div>
           </div>
         </div>
       </div>

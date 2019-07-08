@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   width: 220px;
-  background-color:#0fa7ff;
+  background-color:black;
   height: 100vh;
   align-items: center;
   float: left;
   position: fixed;
+  color: white;
 }
 
 html {
@@ -33,7 +34,7 @@ html {
   margin-left:220px;
 }
 
-.About_me, .Experiences, .Projects, .Skills {
+.Profile, .Experiences, .Projects, .Skills {
   margin:10px;
   min-width: 200px;
   padding: 10px 0px;
@@ -41,7 +42,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #5482ff;
+  background-color: white;
   border-radius:10px;
   font-family: Franklin Gothic Medium;
 }
@@ -51,16 +52,21 @@ html {
   color: black;
 }
 
-.About_me:hover, .Experiences:hover, .Projects:hover, .Skills:hover {
+.Profile:hover, .Experiences:hover, .Projects:hover, .Skills:hover {
   cursor: pointer;
-  background-color: #63c6ff;
+  background-color: black;
+  color: white;
 }
 
-#About_me, #Experiences, #Projects, #Skills {
+#Profile, #Experiences, #Projects, #Skills {
   min-height: 800px;
 }
 
-.About_me{
+#Experiences,  #Projects{
+  background-color: #ffc526;
+}
+
+.Profile{
   margin-top:100px;
 }
 
@@ -69,6 +75,27 @@ html {
   flex-direction: column;
   margin-top: 50px;
   align-items: center;
-  font-size: 40px;
+  font-size: 60px;
   font-family: Gabriola;
+}
+
+.content-about {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.about-title, .details-title {
+  display: flex;
+  width: 350px;
+  margin-left:22%;
+  font-size: 20px;
+}
+
+.content-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
 }
