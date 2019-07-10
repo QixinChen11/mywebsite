@@ -5,8 +5,8 @@
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1",
-    "semantic-ui-react": "^0.87.2"
+    "react-scripts": "^3.0.1",
+    "semantic-ui-react": "^0.87.3"
   },
   "homepage": "https://qixinchen11.github.io/mywebsite",
   "scripts": {
@@ -27,6 +27,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "raw-loader": "^3.0.0"
   }
 }

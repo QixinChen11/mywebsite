@@ -1,13 +1,25 @@
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.me {
+  width: 180px;
+  height:auto;
+  border-radius: 100px;
+}
+
 .bar {
   display: flex;
   flex-direction: column;
-  width: 220px;
+  width: 210px;
   background-color:black;
-  height: 100vh;
+  min-height: 100vh;
   align-items: center;
   float: left;
   position: fixed;
   color: white;
+  backface-visibility: hidden;
 }
 
 html {
@@ -21,9 +33,14 @@ html {
   font-family: Gabriola;
 }
 
+.profile_pic {
+  display: grid;
+  margin-top: 30px;
+}
+
 .links {
   display: flex;
-  margin-top: 50px;
+  margin-top: 8px;
   font-size: 17px;
   height: 10px;
 }
@@ -31,12 +48,11 @@ html {
 .content {
   display: flex;
   flex-direction: column;
-  margin-left:220px;
 }
 
-.Profile, .Experiences, .Projects, .Skills {
-  margin:10px;
-  min-width: 200px;
+.Profile, .Experiences, .Projects, .Skills, .Education {
+  margin:8px;
+  min-width: 180px;
   padding: 10px 0px;
   font-size: 20px;
   display: flex;
@@ -52,54 +68,153 @@ html {
   color: black;
 }
 
-.Profile:hover, .Experiences:hover, .Projects:hover, .Skills:hover {
+.Profile:hover, .Experiences:hover, .Projects:hover, .Skills:hover, .Education:hover {
   cursor: pointer;
-  background-color: black;
-  color: white;
+  background-color: lightskyblue;
+  color: black;
 }
 
-#Profile, #Experiences, #Projects, #Skills {
+#Profile, #Experiences, #Projects, #Skills, #Education {
   min-height: 100vh;
+  min-width: 100vw;
+  margin-left: 210px;
 }
 
-#Experiences,  #Projects{
-  background-color: #ffc526;
+#Education,  #Skills{
+  background-color: AntiqueWhite ;
 }
 
 .Profile{
-  margin-top:100px;
+  margin-top:80px;
 }
 
 .content-title {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
-  align-items: center;
-  font-size: 60px;
+  margin-top: 30px;
+  font-size: 4em;
   font-family: Gabriola;
+  margin-left: 5vh;
+  padding: 15px;
+}
+
+.content-title:before {
+  content : "";
+  position: absolute;
+  width: 65%;
+  height: 50px;
+  border-bottom:2px groove gray;
 }
 
 .content-about {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
   flex-wrap: wrap;
 }
 
-.about, .details {
+.about {
   display: flex;
   flex-direction: column;
-  width: 350px;
-  margin-left:22%;
+  margin-left: 5vh;
+  margin-top:30vh;
+  padding: 15px;
+  width: 67vw;
 }
 
-.about-title, .details-title {
-  font-size: 20px;
+.education-college, .education-title {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5vh;
+  margin-top:5vh;
+  padding: 15px;
+  width: 67vw;
 }
 
-.content-content {
+.education-hs {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5vh;
+  margin-top:3vh;
+  padding: 15px;
+  width: 67vw;
+}
+
+.skill-program, .skill-other {
   display: flex;
   flex-direction: column;
+  margin-left: 5vh;
+  margin-top: 5vh;
+  padding: 15px;
+}
+
+.skill-other {
+  margin-bottom: 10px;
+}
+
+.stars { 
+  margin-left:20px;
+  color: #22A6BE;
+  float:right;
+}
+
+.PL {
+  list-style-type: none;
+  margin-left: 5vh;
+  white-space: pre-wrap;
+  line-height: 1.7;
+}
+
+.DL{
+  list-style-type: none;
+  margin-left: 5vh;
+  white-space: pre-wrap;
+  line-height: 1.7;
+  margin-bottom: 50px;
+}
+
+li {
+  width: 300px;
+  font-size: 1.25em;
+}
+
+.education-title {
   margin-top: 50px;
-  align-items: center;
 }
+
+.education-college {
+  font-size: 1.5em;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 0.8em;
+  line-height: 20pt;
+}
+
+.college-intro {
+  width: 400px;
+}
+
+.college-detail {
+  margin-left: 10vw;
+  width: 70vw;
+}
+
+.about-title, .education-title, .education-hs, .skill-program, .skill-other {
+  font-size: 2em;
+  color: #22A6BE;
+  font-family: Segoe Print;
+}
+
+.about-content {
+  margin-top: 5vh;
+  font-size: 1.5em;
+  line-height: 20pt
+}
+
+.content-skill {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
