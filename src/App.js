@@ -76,6 +76,7 @@ class App extends Component {
                   My main set of skills are fullstack web development, JS, Java, and Python. I would love to be involved in game development.
                   On the non-tech related topics, I love to participate in most sports involving a racket and a ball.
                 </div>
+                <div className="email">Email: Qixin.ch3n@gmail.com</div>
               </div>
             </div>
           </div>
@@ -102,7 +103,7 @@ class App extends Component {
               <div className="education-college">
                 <div className="college-intro">
                   <b>Brooklyn Technical High School</b>
-                  <p>Sept 2012 - June 2016</p>
+                  <p>Sept 2012 - Jun 2016</p>
                 </div>
                 <div className="college-detail">
                   <b>Software Engineering Major</b>
@@ -121,30 +122,31 @@ class App extends Component {
               <div className="education-title">Career</div>
               <div className="education-college">
                 <div className="college-intro">
-                  <b>Stony Brook University</b>
-                  <p>Aug 2016 - Dec 2019</p>
+                  <b>MIT Scheller Teacher Education Program</b>
+                  <p>Jun - Aug 2019</p>
                 </div>
                 <div className="college-detail">
-                  <b>Bachelor of Science: Computer Science</b>
+                  <b>Fullstack Intern</b>
                   <p>
-                    Here is where I accumulated my software building knowledge, 
-                    both frontend and backend. I was also taught basics of databases, algorithms,
-                    and programming languages. On top of the basics, I learned teamwork, time management,
-                    and leadership skills.
+                    In this internship, I created an online simulation tool helped teachers with their 
+                    school management skills. By using ReactJS and Django REST framework, I added tool features and
+                    tool mechanics. I encountered my first experience with backend here, and optimized transaction time.<br />
+                    ><a href="http://changeit-project.appspot.com" rel="noopener noreferrer" target="_blank">Change It!</a>
                   </p>
                 </div>
               </div>
               <div className="education-college">
                 <div className="college-intro">
-                  <b>Brooklyn Technical High School</b>
-                  <p>Sept 2012 - June 2016</p>
+                  <b>MIT Teacher Education Arcade</b>
+                  <p>Jun - Aug 2018</p>
                 </div>
                 <div className="college-detail">
-                  <b>Software Engineering Major</b>
+                  <b>Web Development Intern</b>
                   <p>
-                    My initial coding experience comes from my high school, and it was web development and software development.
-                    I got my first taste of JavaScript, HTML, CSS, PHP, Java, and tiny bits of SQL.
-                    Those tastes carried me a long way, even through college.
+                    I worked on an interactive and collaborative game series that introduced the many STEM elements
+                    using ReactJS. I also worked as a code flow leader for a team of three while tackling this project.
+                    Additionally, I began the process of "appify" the game series. <br />
+                    ><a href="http://virusgame-shared.firebaseapp.com" rel="noopener noreferrer" target="_blank">Virus Game</a>
                   </p>
                 </div>
               </div>
@@ -153,39 +155,57 @@ class App extends Component {
           <div id='Skills'>
             <div className="content-title">Skills</div>
             <div className="content-skill">
-              <div className="skill-program">Programming Languages</div>
-              <ul className="PL">
-                <li>JavaScript {this.makeStars(5)}</li> 
-                <li>Python {this.makeStars(4)}</li>
-                <li>SQL {this.makeStars(4)}</li>
-                <li>Java {this.makeStars(4)}</li>
-                <li>C {this.makeStars(3)}</li>
-                <li>Matlab {this.makeStars(3)}</li>
-                <li>MIPS {this.makeStars(3)}</li>
-                <li>Perl {this.makeStars(3)}</li>
-                <li>SML {this.makeStars(3)}</li>
-              </ul>
-              <div className="skill-other">Frameworks and Others</div>
-              <ul className="DL">
-                <li>React {this.makeStars(5)}</li>
-                <li>Redux {this.makeStars(5)}</li>
-                <li>Semantic-UI {this.makeStars(5)}</li>
-                <li>Material-UI {this.makeStars(5)}</li>
-                <li>Firebase {this.makeStars(5)}</li>
-                <li>NodeJS {this.makeStars(4)}</li>
-                <li>CSS {this.makeStars(4)}</li>
-                <li>Django REST {this.makeStars(4)}</li>
-                <li>Git {this.makeStars(4)}</li>
-                <li>HTML {this.makeStars(4)}</li>
-                <li>Linux Command {this.makeStars(4)}</li>
-                <li>Pusher {this.makeStars(3)}</li>
-                <li>React Native {this.makeStars(3)}</li>
-              </ul>
+              <div className="skill-pl">
+                <div className="skill-program">Programming Languages</div>
+                <ul className="PL">
+                  <li>JavaScript {this.makeStars(5)}</li> 
+                  <li>Python {this.makeStars(4)}</li>
+                  <li>SQL {this.makeStars(4)}</li>
+                  <li>Java {this.makeStars(4)}</li>
+                  <li>C {this.makeStars(3)}</li>
+                  <li>Matlab {this.makeStars(3)}</li>
+                  <li>MIPS {this.makeStars(3)}</li>
+                  <li>Perl {this.makeStars(3)}</li>
+                  <li>SML {this.makeStars(3)}</li>
+                </ul>
+              </div>
+              <div className="skill-fao">
+                <div className="skill-other">Frameworks and Others</div>
+                <ul className="DL">
+                  <li>React {this.makeStars(5)}</li>
+                  <li>Redux {this.makeStars(5)}</li>
+                  <li>Semantic-UI {this.makeStars(5)}</li>
+                  <li>Material-UI {this.makeStars(5)}</li>
+                  <li>Firebase {this.makeStars(5)}</li>
+                  <li>NodeJS {this.makeStars(4)}</li>
+                  <li>CSS {this.makeStars(4)}</li>
+                  <li>Django REST {this.makeStars(4)}</li>
+                  <li>Git {this.makeStars(4)}</li>
+                  <li>HTML {this.makeStars(4)}</li>
+                  <li>Linux Command {this.makeStars(4)}</li>
+                  <li>Pusher {this.makeStars(3)}</li>
+                  <li>React Native {this.makeStars(3)}</li>
+                </ul>
+              </div>
             </div>
           </div>
           <div id='Projects'>
             <div className="content-title">Projects</div>
-            <div className="content-content"></div>
+            <div className="content-project">
+              <div className="project-lyric">
+                <div className="project-title">Lyrics</div>
+                <a href="https://hackathon-a2826.firebaseapp.com/" rel="noopener noreferrer" target="_blank">
+                  <img className="lyrics"  alt="lyrics" src={require('./lyrics.png')} />
+                </a>
+              </div>
+              <div className="project-ctd">
+                <div className="project-title-ctd">CTD</div>
+                <a href="http://ctd2.github.io/" rel="noopener noreferrer" target="_blank">
+                  <img className="ctd"  alt="lyrics" src={require('./ctd.png')} />
+                </a>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>

@@ -200,11 +200,12 @@ p {
   width: 70vw;
 }
 
-.about-title, .education-title, .education-hs, .skill-program, .skill-other {
+.about-title, .education-title, .education-hs, .skill-program, .skill-other, .project-title, .project-title-ctd{
   font-size: 2em;
   color: #22A6BE;
   font-family: Segoe Print;
 }
+
 
 .about-content {
   margin-top: 5vh;
@@ -214,7 +215,49 @@ p {
 
 .content-skill {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.content-project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5vh;
+  margin-top: 5vh;
+  min-width: 700px;
+  text-align: center;
+}
+
+.lyrics {
+  width: 400px;
+  height:300px;
   margin-top: 20px;
 }
 
+.ctd {
+  width: 400px;
+  height:300px;
+  margin-top: 20px;
+  
+}
+
+.lyrics:hover, .ctd:hover{
+  border:solid;
+  border-color: aqua;
+}
+
+.skill-fao, .skill-pl {
+  width: 550px;
+}
+
+.project-ctd, .project-lyric{
+  width: 490px;
+  margin-top: 20px;
+}
+
+.email {
+ margin-top: 40px;
+ font-size: 1.5em;
+}
