@@ -14,17 +14,25 @@
   flex-direction: column;
   width: 210px;
   background-color:black;
-  min-height: 100vh;
+  height:100%;
   align-items: center;
   float: left;
   position: fixed;
   color: white;
-  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+}
+
+*>.menu {
+  position: fixed;
 }
 
 html {
   scroll-behavior: smooth;
+  height: 100vh;
 }
+
 
 .title {
   display: flex;
@@ -57,10 +65,18 @@ html {
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: white;
+  align-items: center;
   border-radius:10px;
   font-family: Franklin Gothic Medium;
+}
+
+#not-clicked-button{
+  background-color: white;
+}
+
+#clicked-button {
+  background-color: lightskyblue;
 }
 
 .a {
@@ -101,7 +117,7 @@ html {
 .content-title:before {
   content : "";
   position: absolute;
-  width: 65%;
+  width: 70%;
   height: 50px;
   border-bottom:2px groove gray;
 }
@@ -118,7 +134,7 @@ html {
   margin-left: 5vh;
   margin-top:30vh;
   padding: 15px;
-  width: 67vw;
+  width: 70%;
 }
 
 .education-college, .education-title {
@@ -127,7 +143,7 @@ html {
   margin-left: 5vh;
   margin-top:5vh;
   padding: 15px;
-  width: 67vw;
+  width: 70%;
 }
 
 .education-hs {
@@ -136,7 +152,7 @@ html {
   margin-left: 5vh;
   margin-top:3vh;
   padding: 15px;
-  width: 67vw;
+  width: 70%;
 }
 
 .skill-program, .skill-other {
@@ -196,8 +212,8 @@ p {
 }
 
 .college-detail {
-  margin-left: 10vw;
-  width: 70vw;
+  margin-left: 7vw;
+  width: 80%;
 }
 
 .about-title, .education-title, .education-hs, .skill-program, .skill-other, .project-title, .project-title-ctd{
@@ -208,7 +224,7 @@ p {
 
 
 .about-content {
-  margin-top: 5vh;
+  margin-top: 4vh;
   font-size: 1.5em;
   line-height: 20pt
 }
@@ -261,3 +277,49 @@ p {
  margin-top: 40px;
  font-size: 1.5em;
 }
+
+.about .profile_pic, .about .links {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .bar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    z-index: 90;
+  }
+  .Profile{
+    margin-top: 0px;
+    margin-left: 10%;
+  }
+  .Profile, .Experiences, .Projects, .Skills, .Education {
+    margin: 5px;
+    min-width: 120px;
+  }
+  #Profile, #Experiences, #Projects, #Skills, #Education {
+    margin-left:0px;
+  }
+  .about .profile_pic, .about .links {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .me {
+    border-radius: 0;
+  }
+  .about {
+    margin-top: 100px;
+  }
+  .bar .title {
+    font-size: 2em;
+    margin:auto;
+  }
+  .bar .profile_pic, .bar .links{
+    display:none;
+  }
+  #Profile {margin-top: 100px;}
+}
+
+html {font-family: sans-serif}
